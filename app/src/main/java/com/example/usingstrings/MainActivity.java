@@ -15,12 +15,10 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("Lifecycle","OnCreate() invoked");
 
-        TextView txtView2;
-
         TextView txtView = findViewById(R.id.txtView);
         txtView.setText(R.string.Msg1);
 
-        txtView2 = findViewById(R.id.txtView2);
+        TextView txtView2 = findViewById(R.id.txtView2);
         txtView2.setText(R.string.Msg2);
     }
     public void onStart()
